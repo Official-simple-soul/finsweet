@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header styling */
+
+header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 14px 0px;
+}
+
+header .logo {
+  font-size: 15px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  border-right: 1px solid gray;
+  padding: 5px 20px 5px 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav .right-contact {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+nav .right-contact .right-contact-text p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* main styling */
+
+main {
+  height: 91vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+main .container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+main .container .left-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .container .left-text .content {
+  width: 80%;
+  background-color: aqua;
+}
+
+main .container .left-text h1 {
+}
+
+main .container .right-img {
+  width: 50%;
+  height: 100%;
+  background-image: url('../img/Image.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+main .container .right-img .service {
+  position: absolute;
+  left: -20%;
+  top: 0;
+}
+
+main .container .right-img .rating {
+  position: absolute;
+  right: -20%;
+  bottom: 0;
+}
+
+.services {
+  width: 200px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.333);
+  position: absolute;
+  left: -5%;
+  top: 10%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50px;
+}
+
+.inside {
+  width: 90%;
+  height: 90%;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  padding: 0 5px;
+}
+
+.inside .left {
+  height: 80%;
+  width: 30%;
+  border-radius: 50%;
+  background-color: #5cba99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inside p {
+  font-size: 14px;
+}
